@@ -1,0 +1,15 @@
+{
+  "core": {
+    "txindex": 1
+  },
+  "rpc": {
+    "server": 1
+  },
+  "zeromq":{
+    "zmqpubhashtx": "tcp://127.0.0.1:29000",
+    "zmqpubrawblock":"tcp://127.0.0.1:29000"
+  },
+  "wallet":{
+    "walletbroadcast": 0
+  }
+}

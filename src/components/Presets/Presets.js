@@ -14,6 +14,7 @@ import tor from './tor.json';
 import testnet from './testnet.json';
 import regtest from './regtest.json';
 import nosync from './nosync.json';
+import lightning from './lightning.json';
 
 function toVal (val) {
   return { name: val, value: val };
@@ -45,7 +46,8 @@ const presets = {
   'Privacy': tor,
   'Testnet': testnet,
   'Regtest': regtest,
-  'Non-syncing': nosync
+  'Non-syncing': nosync,
+  'Lightning': lightning
 };
 
 class Presets extends Component {

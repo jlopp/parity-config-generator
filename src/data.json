@@ -742,7 +742,7 @@
     "rpccookiefile": {
       "name": "RPC Cookie Directory",
       "description": "Location of the RPC auth cookie",
-      "default": "$BASE/"
+      "default": "$BASE/.cookie"
     },
     "rpcauth": {
       "name": "RPC Auth",

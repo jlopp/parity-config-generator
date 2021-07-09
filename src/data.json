@@ -652,7 +652,7 @@
     "peerbloomfilters": {
       "name": "Permit Peer Bloom Filters",
       "description": "Support filtering of blocks and transactions with bloom filters.",
-      "default": 1
+      "default": 0
     },
     "peertimeout": {
       "name": "Peer Timeout",
